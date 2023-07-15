@@ -1,0 +1,29 @@
+
+
+#one{
+    background-color: aqua;
+    width:70% ;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#two{
+    background-color: gold;
+    width:70% ;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+#three{
+    background-color: rebeccapurple;
+    width:70% ;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}

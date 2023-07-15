@@ -1,0 +1,33 @@
+
+*{
+    pad: 0;
+    margin: 0;
+}
+.header{
+    background-image: url(images/hero-bg.jpg);
+    height: 100vh;
+background-position: center center;
+background-size: cover;
+}
+
+.overlay .ano::after{
+    content:"" ;
+    animation-name: anima;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+
+
+@keyframes anima{
+
+    0%{content: "de |";}
+    25%{content: "ve |";}
+    50%{content: "lo |";}
+    75%{content: "per |";}
+    100%{"content: "|;"}
+}
+.container{
+    background-color: green;
+}
